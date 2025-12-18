@@ -1,11 +1,11 @@
 {
-    "name": "longdhareja/radar",
+    "name": "longkhan786/radar",
     "description": "Capture what actually ran in server(router, middleware, policies) without logs.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Longdhareja\\Radar\\": "src/"
+            "longkhan786\\Radar\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Longdhareja\\Radar\\RadarServiceProvider"
+                "longkhan786\\Radar\\RadarServiceProvider"
             ]
         }
     }
